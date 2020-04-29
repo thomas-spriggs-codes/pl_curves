@@ -16,11 +16,12 @@ def test_gini_empty():
 
 
 def test_gini_single():
-    '''FIXME
+    '''
     test calculating a gini coefficient with a single item in the list
     the coefficient should be zero as there's no variation
     '''
-    raise NotImplementedError("Please Implement This Test")
+    gini = calulate_gini(pd.Serie[7.5])
+    assert gini == 0.0
 
 def test_gini_four():
     '''test calculating a gini coefficient with four different items'''
