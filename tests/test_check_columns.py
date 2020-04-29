@@ -7,7 +7,8 @@ def test_check_columns_correct():
     '''FIXME: Implement this test
     Tests check_columns correctly checks items summing to 1.0 returns true
     '''
-    raise NotImplementedError("Please implement this test")
+    a = np.array([0.5],[0.5])
+    assert check_columns(a) == True
 
 
 def test_check_columns_incorrect():
