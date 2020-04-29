@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from pl_curve import check_columns
 import pandas
+import numpy as np
 
 
 def test_check_columns_correct():
